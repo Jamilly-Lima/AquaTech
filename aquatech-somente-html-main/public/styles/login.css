@@ -34,7 +34,7 @@ body {
 }
 
 .agora a{
-    color: white;
+    color: #e3b062;
     font-weight: bold;
 }
 
@@ -50,71 +50,12 @@ body {
     background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
     background-size: cover;
     height: 400px;
-}
-
-.banner .container{
     display: flex;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
     align-items: center;
-}
-
-.banner .container span{
-    font-weight: bold;
-
-}
-
-.banner .container p{
-    color: white;
-    width: 150px;
-    font-size: 25px;
+    justify-content: center;
 }
 
 /*BANNER FIM*/
-
-/*SOCIAL INICIAL*/
-.social{
-    height: 400px;
-    width: 100%;
-    background-color: azure;
-}
-.social .container{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 100%;
-    height: 100%;
-}
-
-.boxes{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 250px;
-    flex-direction: column;
-}
-
-.box img{
-    height: 50%;
-    width: 40%;
-
-}
-
-.box h4{
-    color: blueviolet;
-}
-
-/*SOCIAL FIM*/
 
 /*FOOTER INICIO*/
 .footer{
@@ -133,3 +74,55 @@ body {
     padding-bottom: 50px*/
 }
 /*FOOTER FIM*/
+
+/*LOGIN INICIAL*/
+
+.login {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 65%;
+}
+
+.card-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    height: 10%;
+}
+
+input{
+    height: 32px;
+    width: 450px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    margin-bottom: 15px;
+    outline: none;
+    text-align: center;
+}
+
+h2, span{
+    color: rgb(236, 88, 133);
+    font-weight: bold;
+}
+
+button {
+    background-color:rgb(236, 88, 133);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 26px;
+}
